@@ -1,9 +1,10 @@
 # Python封包傳送 刺蝟貓APP自動簽到程式
 
 ## 使用環境
-`夜神模擬器6.6.1.1` `Python` `Packet Capture`
+`夜神模擬器6.6.1.1` `Python` `Packet Capture` `Jupyter Notebook`
 
 ## 使用方法
+使用Jupyter Notebook加載Auto_sign_in.ipynb
 第一次使用，需先使用Packet Capture抓取簽到任務封包  
 使用Packet Capture擷取封包後，觀察期中一項發送可看到Post /reader/get_task_bonus_with_sign_recommend的封包，如下圖  
 ![](/img/封包教學1.png "抓取簽到任務封包")
